@@ -42,7 +42,7 @@ app.get('/help', (req, res) => {
 
 // About Page
 app.get('/about', (req, res) => {
-    res.render('index', {
+    res.render('about', {
         title: 'About',
         name: 'RON'
     });
